@@ -1,0 +1,30 @@
+li {
+	border: 2px solid red;
+}
+#special {
+	background-color: yellow;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+* {
+	border: 1px solid lightgray;
+}
+
+li a {
+	background-color: red;
+}
+
+ul + p {
+	background-color: green;
+}
+
+a[href="https://www.twitter.com"] {
+	border: 2px gold solid;
+}
+
+ul:nth-of-type(1) {
+	background-color: purple;
+}
