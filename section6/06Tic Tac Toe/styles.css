@@ -1,0 +1,24 @@
+h1 {
+	text-align: center;
+	font-family: 'Comic Neue', cursive;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	/* margin: 0 auto 0 auto; */
+}
+
+td:nth-of-type(2) {
+	border-left: 2px black solid;
+	border-right: 2px black solid;
+}
+
+tr:nth-of-type(2) td {
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+}
+
+table {
+	margin: auto;
+}

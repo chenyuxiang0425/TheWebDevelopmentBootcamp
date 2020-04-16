@@ -1,0 +1,41 @@
+/*font-family*/
+
+h1 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*font-size*/
+
+h1 {
+	font-size: 50px;
+}
+
+p {
+	font-size: 2.0em;
+}
+
+span {
+	font-size: 2.0em;
+}
+
+body {
+	font-size: 10px;
+}
+
+/*font-weight*/
+p {
+	font-weight: bold;
+}
+
+/*line-height*/
+p {
+	line-height: 2.0em;
+}
+/*text-align*/
+h1 {
+	text-align: center;
+}
+
+/*text-decoration*/
+span {
+	text-decoration: underline;
+}
