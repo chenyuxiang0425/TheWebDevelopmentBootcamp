@@ -1,0 +1,32 @@
+body {
+    background-color: #232323;
+}
+.square {
+    background: #1b6d85;
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 10px;
+    border-radius: 15%;
+    transition: background 0.6s;
+}
+
+#container {
+    max-width: 600px;
+    /* margin: up left */
+    margin: 0 auto;
+
+}
+
+h1 {
+    text-align: center;
+    line-height: 1.1;
+    font-weight: normal;
+    color: white;
+    background-color: steelblue;
+    /*h1上下空余*/
+    margin: 0;
+    text-transform: uppercase;
+    /*文字上下空余20*/
+    padding: 20px;
+}
