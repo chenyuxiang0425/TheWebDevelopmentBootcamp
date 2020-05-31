@@ -1,5 +1,6 @@
 body {
     background-color: #232323;
+    margin: 0;
 }
 .square {
     background: #1b6d85;
@@ -14,7 +15,7 @@ body {
 #container {
     max-width: 600px;
     /* margin: up left */
-    margin: 0 auto;
+    margin: 20px auto;
 
 }
 
@@ -29,4 +30,49 @@ h1 {
     text-transform: uppercase;
     /*文字上下空余20*/
     padding: 20px;
+}
+
+#stripe {
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 30px;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+.selected {
+    color: white;
+    background-color: steelblue;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+#message {
+    width: 20%;
+    display: inline-block;
+}
+
+button {
+    color: steelblue;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    /*边框外面的虚线*/
+    outline: none;
+    /*渐变色*/
+    transition: all 0.3s;
+    /*Safari 浏览器*/
+    -webkit-transition: all 0.3s;
+    /*firefox 浏览器*/
+    -moz-transition: all 0.3s;
 }
