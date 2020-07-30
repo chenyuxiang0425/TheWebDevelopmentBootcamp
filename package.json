@@ -1,0 +1,25 @@
+{
+  "name": "thewebdevelopmentbootcamp",
+  "version": "1.0.0",
+  "description": "[MDN HTML Guide](https://developer.mozilla.org/en-US/docs/Learn/HTML)",
+  "main": "index.js",
+  "dependencies": {
+    "cat-me": "^1.0.3",
+    "express": "^4.17.1",
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenyuxiang0425/TheWebDevelopmentBootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenyuxiang0425/TheWebDevelopmentBootcamp/issues"
+  },
+  "homepage": "https://github.com/chenyuxiang0425/TheWebDevelopmentBootcamp#readme"
+}
