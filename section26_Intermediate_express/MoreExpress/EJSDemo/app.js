@@ -1,12 +1,15 @@
 const express = require("express");
 const app = express();
 
+app.use(express.static (__dirname + "/public") ); //设置静态资源（文件）目录
+app.set("view engine","ejs");
+
 app.get("/",function (req,res) {
-   res.render("home.ejs")
+   res.render("home")
 });
 
 app.get("/fallinglovewith/:thing",function (req,res) {
-    res.render("love.ejs",{thingVar:req.params.thing})
+    res.render("love",{thingVar:req.params.thing})
 })
 
 app.get("/posts",function (req, res) {
@@ -15,7 +18,7 @@ app.get("/posts",function (req, res) {
         {title:"My adorable pet bunny", author: "Charlie"},
         {title:"Can you believe this pompey", author: "Calt"}
     ];
-    res.render("posts.ejs",{posts : posts}) 
+    res.render("posts",{posts : posts})
 })
 
 app.listen(port = 3000,function () {
